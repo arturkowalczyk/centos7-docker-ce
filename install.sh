@@ -11,4 +11,10 @@ yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce
 
 # install docker ce
 yum makecache fast
-yum install docker-ce
+yum install -y docker-ce
+
+# service
+systemctl start docker
+systemctl enable docker
+
+docker version
