@@ -22,3 +22,4 @@ curl -L https://github.com/docker/compose/releases/download/1.14.0/docker-compos
 chmod a+x /usr/local/bin/docker-compose
 
 docker version
+docker-compose version
