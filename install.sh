@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # clean existing docker
-yum remove docker docker-common docker-selinux docker-engine
+yum remove -y docker docker-common docker-selinux docker-engine
 
 # install tools
 yum install -y yum-utils device-mapper-persistent-data lvm2
